@@ -1,0 +1,135 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@200&display=swap');
+
+body{
+    background-color: whitesmoke;
+    margin: 0;
+    background: linear-gradient(315deg, rgba(3,7,33,1) 0%, rgba(2,4,24,1) 92%);
+    font-family: "Noto Sans", sans-serif; 
+}
+
+nav{
+    display: flex;
+    background: linear-gradient(315deg, rgb(4, 10, 43) 0%, rgba(2,4,24,1) 92%);
+    box-shadow: 0 0 0 3px whitesmoke;
+}
+
+.logo{
+    margin: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 60px;
+    height: 60px;
+    color: rgb(13, 151, 13);
+}
+
+ul{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    gap: 30px;
+    text-align: justify;
+}
+
+ul > li{
+    list-style: none;
+    color: white;
+    cursor: pointer;
+    text-align: end;
+}
+
+ul > li:hover{
+    color: rgb(233, 54, 63);
+}
+
+.container{
+    margin-top: 10px;
+    background-color: azure;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    height: 100%;
+    background: linear-gradient(315deg, rgba(3,7,33,1) 0%, rgba(2,4,24,1) 92%);
+}
+
+.left-menu{
+    width: 50%;  
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 30px;
+    color: rgb(29, 212, 12);
+}
+
+.right-menu{
+    display: block;
+    margin: 20px;
+    width: 35%;
+}
+
+.card-login{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 8px;
+    opacity: 10px;
+    background: radial-gradient(circle, rgba(26,55,238,1) 0%, rgba(67,100,232,1) 100%);
+    border-radius: 8px;
+    padding-bottom: 8px;
+    height: 110%;
+    box-shadow: inset;
+}
+
+.text-field {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 10px 0px;
+    color: whitesmoke;
+}
+
+input{
+    width: 75%;
+    height: 22px;
+    padding: 5px;
+    border: none;
+    border-radius: 8px;
+}
+
+button{
+    padding: 5px;
+    border: none;
+    border-radius: 10px;
+    background-color: rgb(221, 27, 37);
+    color: whitesmoke;
+    cursor: pointer;
+    width: 90px;
+    height: 30px;
+}
+
+button:hover{
+    background-color: rgb(240, 4, 15);
+}
+
+.media{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.options{
+    margin: 10px;
+    padding: 10px;
+    display: flex;
+    border-radius: 8px;
+    background-color: whitesmoke;
+    cursor: pointer;
+}
+
+.options:hover{
+    background-color: rgb(240, 4, 15);
+    opacity: 92%;
+}
